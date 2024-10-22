@@ -122,8 +122,10 @@ volumes:
   server_data:
   db_data:
 
+# add driver
 networks:
   iris_backend:
     name: iris_backend
   iris_frontend:
     name: iris_frontend
+    driver: bridge
