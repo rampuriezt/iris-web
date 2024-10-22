@@ -56,5 +56,4 @@ networks:
     name: iris_backend
   iris_frontend:
     name: iris_frontend
-  bridge:
-    name: bridge
+
