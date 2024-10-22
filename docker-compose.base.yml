@@ -108,7 +108,7 @@ services:
       - IRIS_AUTHENTICATION_TYPE
     networks:
       - iris_frontend
-      - bridge
+      
     ports:
       - "${INTERFACE_HTTPS_PORT:-443}:${INTERFACE_HTTPS_PORT:-443}"
     volumes:
@@ -129,5 +129,4 @@ networks:
     name: iris_backend
   iris_frontend:
     name: iris_frontend
-  bridge:
-    name: bridge  
+
