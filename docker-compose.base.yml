@@ -132,4 +132,5 @@ networks:
   iris_frontend:
     name: iris_frontend
   default:
+network_mode: host
 
