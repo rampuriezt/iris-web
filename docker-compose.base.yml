@@ -108,6 +108,7 @@ services:
       - IRIS_AUTHENTICATION_TYPE
     networks:
       - iris_frontend
+      - default
       
     ports:
     #  - "${INTERFACE_HTTPS_PORT:-443}:${INTERFACE_HTTPS_PORT:-443}"
