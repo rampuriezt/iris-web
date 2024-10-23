@@ -111,7 +111,7 @@ services:
       
     ports:
     #  - "${INTERFACE_HTTPS_PORT:-443}:${INTERFACE_HTTPS_PORT:-443}"
-       - "443:443"
+       - "8443:443"
     volumes:
       - "./certificates/web_certificates/:/www/certs/:ro"
     restart: always
